@@ -1,0 +1,23 @@
+﻿@model NetBoard.Models.SessionModel
+@{
+    ViewData["Title"] = "Newsletter Mailbox";
+}
+@* Save the request token in a div. CORS needs to make sure this token can't be read by javascript from other sources than ours *@
+@{
+    <div id="xsrf-token" data-xsrf-token="@ViewBag.AntiForgeryRequestToken"></div>
+    <div id="access-token" data-access-token="@ViewBag.accessToken"></div>
+    <div id="react-app"></div>
+}
+@section Styles
+{
+    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+    @if (!AppSettings.Default.IsDevelopment)
+    {
+        <link rel="stylesheet" href="~/dist/site.css" asp-append-version="true" />
+    }
+}
+@section Scripts
+{
+    <script src="~/dist/vendor.js" asp-append-version="true"></script>
+    <script src="~/dist/main-client.js" asp-append-version="true"></script>
+}

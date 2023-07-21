@@ -1,0 +1,23 @@
+﻿@model NetBoard.Models.SessionModel
+
+@if (Model != null && !Model.isNull && Model.UserIsLoggedIn)
+{
+    <div id="profile_box" class="profile_nav">
+        <div id="profile_body_img" class="profile_img">@Model.FirstInitial</div>
+        <div class="profile_details">
+            <div class="profile_name">@Model.FullName</div>
+            <div class="profile_localID">@Model.LocalUserName@@newsboard.email</div>
+        </div>
+        <div class="profile_box profile_manager"><a id="profile_box_ep" class="b2cLinks" href="/editprofile">Update Account</a></div>
+        <hr />
+        <div class="profile_box profile_signout"><a id="profile_box_so" class="b2cLinks" href="/signout">Sign Out</a></div>
+        <hr />
+        <div>
+            <ul class="nav navbar-nav">
+                <li>Privacy</li>
+                <li>&nbsp;</li>
+                <li>Terms and Conditions</li>
+            </ul>
+        </div>
+    </div>
+}

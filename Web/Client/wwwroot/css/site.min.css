@@ -1,0 +1,12 @@
+body{padding-top:50px;padding-bottom:20px}.body-content{padding-left:15px;padding-right:15px}input,select,textarea{max-width:280px}.carousel-caption p{font-size:20px;line-height:1.4}.carousel-inner .item img[src$=".svg"]{width:100%}@media screen and (max-width:767px){.carousel-caption{display:none}}.profile_button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 75%;
+  color: red;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}

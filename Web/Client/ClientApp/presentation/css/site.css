@@ -1,0 +1,38 @@
+﻿
+
+.contentblock {
+    margin: 10px;
+    width: 500px;
+}
+
+.listTable {
+    margin: 30px;
+    list-style: none;
+}
+
+    .listTable li {
+        padding: 0;
+        margin: 10px;
+        clear: both;
+    }
+
+
+
+.empDetail {
+    width: 100%;
+}
+
+.empPhoto {
+    float: left;
+}
+
+    .empPhoto img {
+        border: 3px solid #3984C6;
+        height: 200px;
+        width: 201px;
+    }
+
+.empInfo {
+    float: left;
+    width: 250px;
+}	

@@ -1,0 +1,158 @@
+.authorized {
+    height: 100%;
+    width: 100%;
+    background-color: #DCECF3;
+    padding-top: 10px;
+    top: 0;
+    left: 0;
+}
+
+.inboxTopRowText {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 0%;
+}
+
+.inboxNavButton {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    outline: none;
+    border-radius: 10px;
+}
+
+.inboxNavButton:hover {
+    background-color: #DCECF3;
+}
+
+.inboxNavButton:-moz-drag-over {
+    background-color: #DCECF3;
+}
+
+.lineDiv {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.createTag {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 7.5%;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(0, 0, 0);
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgb(0, 0, 0);
+}
+
+.createTag:hover {
+    background-color: #DCECF3;
+}
+
+.TopRow {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    min-height: 30px;
+}
+
+.inboxReadDot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+}
+
+.readNewsletter {
+    background-color: #ffffff;
+}
+
+.unreadNewsletter {
+    background-color: #23527c;
+}
+
+.inboxNewsletter {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    width: 100%;
+    border: 1px solid #000000;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.newsletterReadStatus {
+    float: left;
+    width: 3%;
+    min-width: 20px;
+    padding-top: 2px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.newsletterTitle {
+    float: left;
+    width: 47%;
+}
+
+.newsletterAuthor {
+    float: left;
+    width: 40%;
+}
+
+.newsletterDate {
+    float: left;
+    width: 10%;
+}
+
+.newsletterBackButton {
+    border: none;
+    text-align: left;
+    width: 60px;
+    background-color: rgba(256, 256, 256, 0.5);
+    padding-left: 26px;
+}
+
+.unselectedButton {
+    background-color: #FFFFFF
+}
+
+.selectedButton {
+    background-color: #DCECF3;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+}

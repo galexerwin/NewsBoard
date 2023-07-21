@@ -1,0 +1,100 @@
+.netmodal {
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: -2px 0px 3px rgb(0, 0, 0);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    border-radius: 10px;
+    display: block;
+    height: 100%;
+    overflow-y:auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c0c0c0;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #000000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #c0c0c0;
+}
+
+.newsLetter {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.modalColumn {
+    padding: 1%;
+    float: left;
+}
+
+.modalSide {
+    width: 20%;
+    height: inherit;
+    text-align: center;
+}
+
+.modalCenter {
+    width: 60%;
+    height: inherit;
+}
+
+.modalNavColumn {
+    width: 15%;
+    height: inherit;
+    text-align: center;
+}
+
+.modalInbox {
+    width: 85%;
+    height: inherit;
+    padding-right: 2%;
+}
+
+.modalRow {
+    height: 95%;
+}
+
+.modalRow:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.tagButton {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+    background-color: #FFFFFF;
+    border: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    outline: none;
+    border-radius: 10px;
+}
+
+.tagButton:hover {
+    background-color: #DCECF3;
+}

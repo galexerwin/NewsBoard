@@ -1,0 +1,18 @@
+﻿@model NetBoard.Models.SessionModel
+
+@if (Model != null && !Model.isNull)
+{
+    <ul class="nav navbar-nav navbar-right">
+        @if (!ViewContext.RouteData.Values["controller"].ToString().Equals("Newsletter"))
+        {
+            <li><a href="/newsletter">Inbox</a></li>
+        }
+        <li><button id="profile_header_img" class="profile_img">@Model.FirstInitial</button></li>
+    </ul>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="/signin">Sign In</a></li>
+    </ul>
+}

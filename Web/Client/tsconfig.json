@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": "ClientApp",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "skipDefaultLibCheck": true,
+    "strict": false,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "allowUnusedLabels": false,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "lib": [ "es6", "dom" ],
+    "types": [ "webpack-env" ],
+    "paths": {
+      "@Application/*": [ "./application/*" ],
+      "@Core/*": [ "./core/*" ],
+      "@Services/*": [ "./services/*" ],
+      "@Components/*": [ "./components/*" ],
+      "@Models/*": [ "./components/models/*" ],
+      "@Views/*": [ "./components/views/*" ],
+      "@Controllers/*": [ "./components/controllers/*" ],
+      "@Store/*": [ "./store/controllers/*" ],
+      "@Utils": [ "./application/utilities.ts" ],
+      "@Layouts/*": [ "./components/views/layouts/*" ],
+      "@Images/*": [ "./presentation/images/*" ],
+      "@Styles/*": [ "./presentation/css/*" ]
+    }
+  },
+  "exclude": [
+    "bin",
+    "node_modules",
+    "AspNet"
+  ]
+}

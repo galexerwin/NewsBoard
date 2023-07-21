@@ -1,0 +1,44 @@
+{
+    "newsletters": [
+        {
+            "email_addr": "pelovett@gmail.com",
+            "sender_name": "Peter Lovett",
+            "subject": "Test Email",
+            "date": "1617384718000",
+            "read_status": "false",
+            "trash_status": "false",
+            "tag": "",
+            "id": "74916fe4-93d9-11eb-bd81-d56ed219ccfa"
+        },
+        {
+            "email_addr": "noreply@mail.bloombergview.com",
+            "sender_name": "Matt Levine",
+            "subject": "Money Stuff: Archegos Got Too Big for Its Banks",
+            "date": "1617899870000",
+            "read_status": "false",
+            "trash_status": "true",
+            "tag": "",
+            "id": "54cc9fe5-fdc4-4738-a099-11e871b40740"
+        },
+        {
+            "email_addr": "reply+kmtgq&1jt7u&&e76d15e39abd5d08d8ef666b6112cdbaf56e07578161c1b64fadad4410db370e@mg1.substack.com",
+            "sender_name": "Noahpinion",
+            "subject": "Bitcoin mining and resource use",
+            "date": "1617320596000",
+            "read_status": "true",
+            "trash_status": "false",
+            "tag": "Noah",
+            "id": "b295f58a-93d9-11eb-bd81-d56ed219ccfa"
+        },
+        {
+            "email_addr": "reply+kmtgq&1jt7u&&e76d15e39abd5d08d8ef666b6112cdbaf56e07578161c1b64fadad4410db370e@mg1.substack.com",
+            "sender_name": "Noahpinion",
+            "subject": "China is very 20th century",
+            "date": "1617021016000",
+            "read_status": "false",
+            "trash_status": "false",
+            "tag": "Noah",
+            "id": "999b0632-93da-11eb-bd81-d56ed219ccfa"
+        }
+    ]
+}

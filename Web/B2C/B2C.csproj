@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0">
+  <PropertyGroup>
+    <ProjectGuid>{E3BB9A46-51C9-4080-B554-BD4E3B314333}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="customize-ui.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="Presentation\CSS\bootstrap.css" />
+    <Content Include="Presentation\CSS\customize-ui.css" />
+    <Content Include="Presentation\CSS\scrolling-nav.css" />
+    <Content Include="Presentation\CSS\Site.css" />
+    <Content Include="Presentation\Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Presentation\Images\empty.png" />
+    <Content Include="Presentation\Images\greencheck.png" />
+    <Content Include="Presentation\Images\redx.png" />
+    <Content Include="Presentation\Scripts\bootstrap.js" />
+    <Content Include="Presentation\Scripts\customize-ui.js" />
+    <Content Include="Presentation\Scripts\jquery-3.3.1.js" />
+    <Content Include="Presentation\Scripts\scrolling-nav.js" />
+    <Content Include="index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Presentation\Fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Presentation\Fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Presentation\Fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Presentation\Fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/NetBoard
+/node_modules
+/obj/Debug/netcoreapp3.1/Razor/Views/Main/Index.cshtml.g.cs
+/obj
+/Properties
+/bin/Debug/netcoreapp3.1
+/wwwroot/dist
